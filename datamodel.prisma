@@ -10,3 +10,9 @@ type Post{
   content:String!
   views:Int!
 }
+
+type Comment{
+  id:ID! @id
+  comment : String!
+
+}
